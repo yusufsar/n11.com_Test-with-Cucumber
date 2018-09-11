@@ -20,7 +20,7 @@ Feature: n11.com - Finartz Test Automation Project
     | email | yusufsar60@gmail.com |
 
     And I fill the password
-    | password | deneme1234 |
+    | password |  |
 
     When I click member login button
 
