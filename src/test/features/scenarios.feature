@@ -4,7 +4,7 @@ Feature: n11.com - Finartz Test Automation Project
 
     Given I open n11 page
     
-    Then I see title is "n11.com - Alışverişin Uğurlu Adresi"
+    Then I see webpage title is "n11.com - Alışverişin Uğurlu Adresi"
 
     And I click sign in button
 
@@ -20,7 +20,7 @@ Feature: n11.com - Finartz Test Automation Project
     | email | yusufsar60@gmail.com |
 
     And I fill the password
-    | password |  |
+    | password | deneme1234 |
 
     When I click member login button
 
@@ -44,7 +44,7 @@ Feature: n11.com - Finartz Test Automation Project
 
     When I wait for page
 
-    Then I see title is "Samsung - n11.com - 2"
+    Then I see webpage title is "Samsung - n11.com - 2"
 
     And I see page number equals to "2"
 
@@ -92,7 +92,7 @@ Feature: n11.com - Finartz Test Automation Project
 
     When I click my favorites button
     
-    And I see title is "Favorilerim - n11.com"
+    And I see webpage title is "Favorilerim - n11.com"
 
     And I see subtitle of the favorites equals to "Favorilerim"
 
@@ -103,6 +103,8 @@ Feature: n11.com - Finartz Test Automation Project
     When I wait for page
 
     And I click okey button
+
+    Then I refresh the page
 
 
 
