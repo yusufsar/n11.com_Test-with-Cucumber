@@ -17,10 +17,10 @@ Feature: n11.com - Finartz Test Automation Project
     And I see facebook button equals to "Facebook ile Giriş"
 
     When I fill the email
-    | email | yusufsar60@gmail.com |
+    | email |  |
 
     And I fill the password
-    | password | deneme1234 |
+    | password |  |
 
     When I click member login button
 
